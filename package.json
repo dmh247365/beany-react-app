@@ -1,10 +1,9 @@
 {
-  "name": "indecision-app",
+  "name": "beany",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "serve": "live-server public/",
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server",
@@ -22,12 +21,8 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "css-loader": "0.28.4",
-    "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.10.0",
-    "enzyme-to-json": "^3.3.5",
     "express": "4.16.4",
-    "jest": "^24.1.0",
-    "live-server": "^1.2.1",
     "mini-css-extract-plugin": "^0.5.0",
     "moment": "^2.24.0",
     "node-sass": "^4.11.0",
@@ -40,7 +35,6 @@
     "react-modal": "2.2.2",
     "react-redux": "^6.0.0",
     "react-router-dom": "4.2.2",
-    "react-test-renderer": "^16.8.3",
     "redux": "^4.0.1",
     "run": "^1.4.0",
     "sass-loader": "6.0.6",
@@ -48,7 +42,13 @@
     "uuid": "^3.3.2",
     "validator": "8.0.0",
     "webpack": "^4.28.4",
-    "webpack-cli": "^3.2.1",
+    "webpack-cli": "^3.2.1"
+  },
+  "devDependencies": {
+    "enzyme": "^3.9.0",
+    "enzyme-to-json": "^3.3.5",
+    "jest": "^24.1.0",
+    "react-test-renderer": "^16.8.3",
     "webpack-dev-server": "^3.1.14"
   }
 }
